@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class QuickController {
     @RequestMapping("/quick")
     public String quick(){
+        System.out.println("hello");
         return "hello";
     }
 }
